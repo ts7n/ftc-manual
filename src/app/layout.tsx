@@ -7,7 +7,7 @@ const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
 
 export const metadata: Metadata = {
   title: 'FTC Game Manual AI',
-  description: 'Chat with the FTC Game Manual for cited questions.',
+  description: 'Get cited AI answers to questions about the FTC Game Manual.',
 };
 
 export default function RootLayout({
