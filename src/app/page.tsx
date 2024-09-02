@@ -157,7 +157,7 @@ export default function Home() {
         </div>
 
         <div id="footer" className="p-4 border-t-2 h-[3.85rem]">
-          <p className="text-sm text-black/65 text-center">Not affiliated with FIRST. Created by <a className="transition-all duration-300 hover:font-bold hover:bg-green-500 hover:text-white hover:decoration-green-700" href="https://teddylampert.com" target="_blank">Teddy Lampert</a>.</p>
+          <p className="text-sm text-black/65 text-center pb-2">Not affiliated with FIRST. Created by <a className="transition-all duration-300 hover:p-1 rounded hover:font-bold hover:bg-green-500 hover:text-white hover:decoration-green-700" href="https://teddylampert.com" target="_blank">Teddy Lampert</a>.</p>
         </div>
       </div>
     </>
