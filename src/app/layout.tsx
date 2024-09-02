@@ -1,5 +1,6 @@
-import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 import { Inter, Oswald } from 'next/font/google';
+import type { Metadata } from 'next';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -22,6 +23,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <Analytics />
         <script defer={true} src="https://acrobatservices.adobe.com/view-sdk/viewer.js" />
       </body>
     </html>
