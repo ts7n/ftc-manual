@@ -93,7 +93,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen flex flex-col justify-between overflow-hidden">
+      <div className="h-screen flex flex-col justify-between md:overflow-hidden">
         <div id="navbar" className="bg-white p-4 grid grid-cols-3 border-b-2">
           <img src="/first.png" className="h-10 w-auto" />
           <h1 className="my-auto font-display text-xl text-center font-medium justify-center">Chat with the FTC Game Manual</h1>
