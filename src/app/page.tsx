@@ -112,8 +112,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-10 flex-grow">
-          <div id="adobe-dc-view" className="col-span-7 border-r" />
+        <div className="grid grid-cols-1 md:grid-cols-10 flex-grow">
+          <div id="adobe-dc-view" className="col-span-7 min-h-96 border-r" />
           <div className="flex flex-col col-span-3 border-l" style={{ height: chatHeight }}>
             <div className="p-4 gap-2 border-b">
               <p className="text-black/80 text-center text-md font-semibold">Intelligently search with AI</p>
