@@ -76,15 +76,23 @@ export default function Home() {
       }
     }
 
+    const resetChatHeight = () => {
+      if (document.hasFocus()) {
+        setChatHeight(`${window.innerHeight - document.getElementById('navbar')!.clientHeight - document.getElementById('footer')!.clientHeight}px`);
+      }
+
+      setTimeout(resetChatHeight, 100);
+    }
+
     document.onresize = () => {
       setChatHeight(`${window.innerHeight - document.getElementById('navbar')!.clientHeight - document.getElementById('footer')!.clientHeight}px`);
     }
 
-    setChatHeight(`${window.innerHeight - document.getElementById('navbar')!.clientHeight - document.getElementById('footer')!.clientHeight}px`);
+    resetChatHeight();
   }, []);
 
   useEffect(() => {
-    questionRef.current = question;
+    questionRef.current = question || (document.getElementById('question') as any).value;
   }, [question]);
 
   useEffect(() => {
