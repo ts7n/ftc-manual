@@ -40,7 +40,7 @@ export default function Home() {
   useEffect(() => {
     const loadAdobeDCView = () => {
       if ((window as any).AdobeDC) {
-        const adobeDCView = new ((window as any).AdobeDC).View({ clientId: 'c5f971636f4646d6a5fde9a820b72b6c' });
+        const adobeDCView = new ((window as any).AdobeDC).View({ clientId: process.env.NEXT_PUBLIC_ADOBE_CLIENT_ID });
         const previewFile = adobeDCView.previewFile({
           content: { location: { url: '/game-manual.pdf' } },
           metaData: { fileName: 'FTC Game Manual.pdf' }

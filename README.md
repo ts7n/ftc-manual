@@ -7,7 +7,7 @@ This web app allows you to "chat" with the FIRST Robotics FTC Game Manual, getti
 
 ## Setup
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fts7n%2Fftc-manual&env=OPENAI_API_KEY,OPENAI_ASSISTANT_ID&envDescription=View%20the%20README.md%20file%20for%20more%20information%20about%20these%20required%20environment%20variables.&envLink=https%3A%2F%2Fgithub.com%2Fts7n%2Fftc-manual%2Fblob%2Fmain%2FREADME.md%23setup&project-name=chat-with-ftc&repository-name=ftc-manual&demo-title=Live%20Deployment&demo-description=Before%20deploying%2C%20try%20the%20FTC%20Game%20Manual%20AI%20here.&demo-url=https%3A%2F%2Fftc-game-manual.tml.sh&demo-image=https%3A%2F%2Fi.gyazo.com%2Fedce4e261ad0f45dfabe8db0cbca902a.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fts7n%2Fftc-manual&env=OPENAI_API_KEY,OPENAI_ASSISTANT_ID,NEXT_PUBLIC_ADOBE_CLIENT_ID&envDescription=View%20the%20README.md%20file%20for%20more%20information%20about%20these%20required%20environment%20variables.&envLink=https%3A%2F%2Fgithub.com%2Fts7n%2Fftc-manual%2Fblob%2Fmain%2FREADME.md%23setup&project-name=chat-with-ftc&repository-name=ftc-manual&demo-title=Live%20Deployment&demo-description=Before%20deploying%2C%20try%20the%20FTC%20Game%20Manual%20AI%20here.&demo-url=https%3A%2F%2Fftc-game-manual.tml.sh&demo-image=https%3A%2F%2Fi.gyazo.com%2Fedce4e261ad0f45dfabe8db0cbca902a.png)
 
 ### OpenAI Assistant
 
