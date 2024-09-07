@@ -30,7 +30,7 @@ export async function POST(request: Request) {
 
         for (const annotation of annotations) {
             const file = await openai.files.retrieve(annotation.file_citation.file_id);
-            const page = file.filename.split('Competition-Manual_Part')[1].split('.')[0];
+            const page = file.filename.split('Competition Manual - V1.1_Part')[1].split('.')[0];
             response = response.replace(
                 annotation.text,
                 ` [[${page}]](#${page})`
