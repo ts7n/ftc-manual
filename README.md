@@ -22,6 +22,4 @@ Use markdown, especially lists and headings, to make responses more readable. Ci
 
 ### File Search
 
-The file search feature should be enabled, and the vector store should have each page of the FTC Game Manual as a separately uploaded file. The name of each file should be in the format `Competition-Manual_PartXX.txt`, where `XX` is the page number. It's okay if certain files fail to upload; this is because they're blank and will not need to be referenced anyways.
-
-You can download the files I provided to OpenAI [here](https://files.tlampert.net/ftc-game-manual.zip).
+The file search feature should be enabled, and the vector store should have each page of the FTC Game Manual as a separately uploaded file. The name of each file should be in the format `Competition Manual - VXXX_PartYY.txt`, where `XXX` is the version number, and `YY` is the page number. It's okay if certain files fail to upload; this is because they're blank and will not need to be referenced anyways.
