@@ -23,3 +23,9 @@ Use markdown, especially lists and headings, to make responses more readable. Ci
 ### File Search
 
 The file search feature should be enabled, and the vector store should have each page of the FTC Game Manual as a separately uploaded file. The name of each file should be in the format `Competition Manual - VXXX_PartYY.txt`, where `XXX` is the version number, and `YY` is the page number. It's okay if certain files fail to upload; this is because they're blank and will not need to be referenced anyways.
+
+#### Tool: `transcribe-pdfs.py`
+
+After splitting the game manual PDF into multiple PDFs using an app like Adobe Acrobat, you can use the script in [`tools/transcribe-pdfs.py`](https://github.com/ts7n/ftc-manual/blob/main/tools/transcribe-pdfs.py) to OCR them, and convert them to text.
+
+There are some configuration variables at the top of the script you will need to update before running. You can reference inline comments for a description of each!
